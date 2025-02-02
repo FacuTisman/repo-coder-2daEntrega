@@ -1,0 +1,39 @@
+body{
+    background-color: burlywood;
+}
+
+.contenedor-grid0{
+    display: grid;
+    grid-template-columns: 3fr 1fr;
+}
+
+
+
+.logo{
+    width: 300px;
+}
+
+.contenedor-grid{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 10px;
+}
+
+.items-grid{
+    background-color:brown;
+    text-align: center;
+    font-size: 30px;
+    border: 1px solid black;
+}
+
+.items-grid img{
+    width: 200px;
+}
+
+strong{
+    font-size: 25px;
+}
+
+.menu-navegacion{
+    background-color: steelblue;
+}
