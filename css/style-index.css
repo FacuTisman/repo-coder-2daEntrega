@@ -4,10 +4,15 @@ body{
 
 .contenedor-grid0{
     display: grid;
-    grid-template-columns: 3fr 1fr;
+    margin: 10px;
+    align-items:baseline;
+    grid-template-columns: 2fr 1fr;
 }
 
-
+header{
+    text-align: center;
+    align-items: center;
+}
 
 .logo{
     width: 300px;
@@ -35,5 +40,9 @@ strong{
 }
 
 .menu-navegacion{
-    background-color: steelblue;
+    position:fixed;
+}
+
+.links{
+    text-decoration: none;
 }
