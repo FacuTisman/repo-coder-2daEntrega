@@ -46,3 +46,7 @@ strong{
 .links{
     text-decoration: none;
 }
+
+.banner img{
+    width: fit-content;
+}
